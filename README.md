@@ -25,7 +25,8 @@ App contains sections of courses that should be filtered and displayed according
 ![image](https://github.com/Ddd1945/kids-tech-app/assets/88478851/21242092-3efd-44a7-b7e4-9797cfce7c0e)
 
 
-### Not Found Page. Displayed in case if user navigated to incorrect route. After clicking on button user will get navigated to the main page
+### 404 page. Displayed in case if user navigated to incorrect route. After clicking on button user will get navigated to the main page
 ![Untitled](https://github.com/Ddd1945/kids-tech-app/assets/88478851/1308860e-b742-4650-9c86-470d1ee9c9cd)
 
-
+### Note
+I've used redux to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening/refreshing page. 
