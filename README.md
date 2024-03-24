@@ -66,5 +66,7 @@ upload/update build to the github branch `gh-pages`
 # Note
 
 1. I've settled redux as it's most often used in big apps plus I'm using it to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening, refreshing or using new session for page.
-2. Unfortunately 404 page doesn't work on github. Github actually replacing my 404 page with its own.
-3. Sometimes I didn't follow `pixel-perfect` pattern cause images was so stretched that I couldn't leave it as it is :D
+   
+3. Unfortunately 404 page doesn't work on github. Github actually replacing my 404 page with its own.
+
+4. Sometimes I didn't follow `pixel-perfect` pattern cause images was so stretched that I couldn't leave it as it is :D
