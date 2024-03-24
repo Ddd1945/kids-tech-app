@@ -21,7 +21,7 @@ App contains sections of courses that should be filtered and displayed according
 ![image](https://github.com/Ddd1945/kids-tech-app/assets/88478851/8ed9fb5a-5a83-4dc1-882c-9efb2275af9e)
 
 
-### Display of courses for tag "Trips". Consider that current api does not return any data for this tag "no data" text animation will be displayed. With every navigation to the page new emoji is being displayed 
+### Display of courses for tag "Trips". Consider that current api does not return any data for this tag thus "no data" text animation will be displayed. With every navigation to the page new emoji is being displayed 
 ![image](https://github.com/Ddd1945/kids-tech-app/assets/88478851/21242092-3efd-44a7-b7e4-9797cfce7c0e)
 
 
