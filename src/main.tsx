@@ -10,7 +10,7 @@ import './main.css';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/kids-tech-app',
     element: <HomePage />,
     errorElement: <NotFoundPage />,
   },
