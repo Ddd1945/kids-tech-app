@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import svg from '../../../public/static/svg/404.svg';
+import svg from '../../../assets/svg/404.svg';
 import './NotFoundPage.scss';
 
 export default function NotFoundPage() {
