@@ -14,6 +14,11 @@ Behavior at different screen resolutions is shown as a separate frame. Block wit
 place. Exactly 3 courses are displayed in one line, which are divided among themselves
 accessible place.
 
+
+# Deployed App
+https://ddd1945.github.io/kids-tech-app/
+
+
 # Deployment
 
 ### `npm i`
@@ -40,9 +45,6 @@ start a local web server that serves the built solution from ./dist for previewi
 
 upload/update build to the github branch `gh-pages`
 
-# Task
-
-App contains sections of courses that should be filtered and displayed accordingly to data that comes from endpoint GET https://logiclike.com/docs/courses.json.
 
 # Screenshots
 
@@ -50,14 +52,18 @@ App contains sections of courses that should be filtered and displayed according
 
 ![image](https://github.com/Ddd1945/kids-tech-app/assets/88478851/8ed9fb5a-5a83-4dc1-882c-9efb2275af9e)
 
+
 ### Display of courses for tag "Trips". Consider that current api does not return any data for this tag thus "no data" text animation will be displayed. With every navigation to the page new emoji is being displayed
 
 ![cowabanga](https://github.com/Ddd1945/kids-tech-app/assets/88478851/48226452-70de-495e-b049-9882f9ce885a)
+
 
 ### 404 page. Displayed in case if user navigated to incorrect route. After clicking on button user will get navigated to the main page
 
 ![Untitled](https://github.com/Ddd1945/kids-tech-app/assets/88478851/1308860e-b742-4650-9c86-470d1ee9c9cd)
 
+
 # Note
 
-I've used redux to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening, refreshing or using new session for page.
+1. I've used redux to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening, refreshing or using new session for page.
+2. Unfortunately 404 page doesn't work on github. Github actually replacing my 404 page with its own.
