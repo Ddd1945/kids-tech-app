@@ -1,4 +1,18 @@
 # Kids Tech App
+There is an API endpoint
+GET https://logiclike.com/docs/courses.json
+The endpoint API returns a list of platform educational courses. Each course
+has “tags”, topics to which this course relates. For example, a chess course refers to
+topics “Puzzles”, “Chess” and “Logic and Thinking”.
+Your task is to develop a simple page, according to the layout, that displays a list
+courses and allows you to filter courses by selected topic (tags). All content
+including the list of topics should be generated dynamically based on the response from the backend
+
+Behavior at different screen resolutions is shown as a separate frame. Block with
+“tags” is fixed in width. The block on the right takes up everything else
+place. Exactly 3 courses are displayed in one line, which are divided among themselves
+accessible place.
+
 
 # Deployment
 
@@ -28,5 +42,5 @@ App contains sections of courses that should be filtered and displayed according
 ### 404 page. Displayed in case if user navigated to incorrect route. After clicking on button user will get navigated to the main page
 ![Untitled](https://github.com/Ddd1945/kids-tech-app/assets/88478851/1308860e-b742-4650-9c86-470d1ee9c9cd)
 
-### Note
+# Note
 I've used redux to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening/refreshing page. 
