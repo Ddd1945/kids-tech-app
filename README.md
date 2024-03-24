@@ -14,7 +14,6 @@ Behavior at different screen resolutions is shown as a separate frame. Block wit
 place. Exactly 3 courses are displayed in one line, which are divided among themselves
 accessible place.
 
-
 # Deployment
 
 ### `npm run dev`
@@ -27,21 +26,25 @@ builds the project, and outputs to the folder ./dist
 
 ### `npm run preview`
 
-# Task 
+start a local web server that serves the built solution from ./dist for previewing
+
+### `npm run pages`
+
+upload/update build to the github branch `gh-pages`
+
+# Task
 
 App contains sections of courses that should be filtered and displayed accordingly to data that comes from endpoint GET https://logiclike.com/docs/courses.json.
 
 # Screenshots
 
-### Display of courses for tag "All topics". With every navigation to the page every card will randomly update its color 
+### Display of courses for tag "All topics". With every navigation to the page every card will randomly update its color
 
 ![image](https://github.com/Ddd1945/kids-tech-app/assets/88478851/8ed9fb5a-5a83-4dc1-882c-9efb2275af9e)
 
-
-### Display of courses for tag "Trips". Consider that current api does not return any data for this tag thus "no data" text animation will be displayed. With every navigation to the page new emoji is being displayed 
+### Display of courses for tag "Trips". Consider that current api does not return any data for this tag thus "no data" text animation will be displayed. With every navigation to the page new emoji is being displayed
 
 ![cowabanga](https://github.com/Ddd1945/kids-tech-app/assets/88478851/48226452-70de-495e-b049-9882f9ce885a)
-
 
 ### 404 page. Displayed in case if user navigated to incorrect route. After clicking on button user will get navigated to the main page
 
@@ -49,4 +52,4 @@ App contains sections of courses that should be filtered and displayed according
 
 # Note
 
-I've used redux to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening, refreshing or using new session for page. 
+I've used redux to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening, refreshing or using new session for page.
