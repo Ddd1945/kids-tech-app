@@ -1,0 +1,42 @@
+.sidebar {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  position: relative;
+  margin: 0px 15px 0px 0px;
+  height: 358px;
+  border: 1px solid #cfcfe4;
+  border-radius: 18px;
+  min-width: 264px;
+}
+
+.tag:hover {
+  cursor: pointer;
+}
+
+.tag {
+  font-family: 'Nunito';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px;
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  &-choosen {
+    @extend .tag;
+    background: #5fbf77;
+    color: white;
+  }
+}

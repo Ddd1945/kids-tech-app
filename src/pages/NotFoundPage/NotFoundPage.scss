@@ -1,0 +1,25 @@
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.back {
+  font-family: monospace;
+  font-size: 5svw;
+  padding: 3vw;
+  text-align: center;
+  max-width: 35vw;
+  margin: 0 auto;
+}
+
+.back:hover {
+  cursor: pointer;
+  color: rgb(254, 132, 153);
+}
+
+.recover {
+  text-decoration: none;
+  color: #263238;
+}
