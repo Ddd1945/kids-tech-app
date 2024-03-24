@@ -14,8 +14,10 @@ Behavior at different screen resolutions is shown as a separate frame. Block wit
 place. Exactly 3 courses are displayed in one line, which are divided among themselves
 accessible place.
 
-# Current app is deployed here
+
+# Deployed App
 https://ddd1945.github.io/kids-tech-app/
+
 
 # Deployment
 
@@ -35,9 +37,6 @@ start a local web server that serves the built solution from ./dist for previewi
 
 upload/update build to the github branch `gh-pages`
 
-# Task
-
-App contains sections of courses that should be filtered and displayed accordingly to data that comes from endpoint GET https://logiclike.com/docs/courses.json.
 
 # Screenshots
 
@@ -52,6 +51,7 @@ App contains sections of courses that should be filtered and displayed according
 ### 404 page. Displayed in case if user navigated to incorrect route. After clicking on button user will get navigated to the main page
 
 ![Untitled](https://github.com/Ddd1945/kids-tech-app/assets/88478851/1308860e-b742-4650-9c86-470d1ee9c9cd)
+
 
 # Note
 
