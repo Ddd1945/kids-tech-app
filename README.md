@@ -14,7 +14,8 @@ Behavior at different screen resolutions is shown as a separate frame. Block wit
 place. Exactly 3 courses are displayed in one line, which are divided among themselves
 accessible place.
 
-# Current app is deployed here - https://ddd1945.github.io/kids-tech-app/
+# Current app is deployed here
+https://ddd1945.github.io/kids-tech-app/
 
 # Deployment
 
