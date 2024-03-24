@@ -14,6 +14,8 @@ Behavior at different screen resolutions is shown as a separate frame. Block wit
 place. Exactly 3 courses are displayed in one line, which are divided among themselves
 accessible place.
 
+# Current app is deployed here - https://ddd1945.github.io/kids-tech-app/
+
 # Deployment
 
 ### `npm run dev`
@@ -52,4 +54,5 @@ App contains sections of courses that should be filtered and displayed according
 
 # Note
 
-I've used redux to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening, refreshing or using new session for page.
+1. I've used redux to store choosen tag index in cache. I found it more convinient for user to stay on the same tag after reopening, refreshing or using new session for page.
+2. Unfortunately 404 page doesn't work on github. Github actually replacing my 404 page with its own.
