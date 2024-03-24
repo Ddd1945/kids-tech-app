@@ -44,9 +44,11 @@ upload/update build to the github branch `gh-pages`
 
 ![image](https://github.com/Ddd1945/kids-tech-app/assets/88478851/8ed9fb5a-5a83-4dc1-882c-9efb2275af9e)
 
+
 ### Display of courses for tag "Trips". Consider that current api does not return any data for this tag thus "no data" text animation will be displayed. With every navigation to the page new emoji is being displayed
 
 ![cowabanga](https://github.com/Ddd1945/kids-tech-app/assets/88478851/48226452-70de-495e-b049-9882f9ce885a)
+
 
 ### 404 page. Displayed in case if user navigated to incorrect route. After clicking on button user will get navigated to the main page
 
