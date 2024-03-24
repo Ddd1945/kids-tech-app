@@ -6,7 +6,7 @@ export default function NotFoundPage() {
   return (
     <div>
       <img src={svg} alt="svg" />
-      <Link to="/" className="recover">
+      <Link to="/kids-tech-app/" className="recover">
         <div className="back">Я ПОТЕРЯЛСЯ</div>
       </Link>
     </div>

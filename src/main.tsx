@@ -7,10 +7,13 @@ import { Provider } from 'react-redux';
 import store, { persistor } from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
 import './main.css';
+import getEnvVars from './api/enviroment';
+
+const { homeRoute } = getEnvVars();
 
 const router = createBrowserRouter([
   {
-    path: '/kids-tech-app',
+    path: homeRoute,
     element: <HomePage />,
     errorElement: <NotFoundPage />,
   },
