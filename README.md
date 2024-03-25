@@ -27,7 +27,7 @@ Install all packages from package.json
 
 ### Api configuration
 
-Here is a strange thing :) Initially it's supposed to work with dev, predprod and prod api urls. But consider the fact that I don't have them I found some usage of that for Route configuration. When running app on localhost home route ny default is `/` but when it's running on github it home route is the name of repo. In my case it is `/kids-tech-app`. So I decided to did it that way cause it's pretty funny ;)
+Here is a strange thing :) Initially it's supposed to work with dev, predprod and prod api urls. But consider the fact that I don't have them I found some usage of that for Route configuration. When running app on localhost home route ny default is `/` but when it's running on github home route is the name of repo. In my case it is `/kids-tech-app`. So I decided to did it that way cause it's pretty funny ;)
 
 ### `npm run dev`
 
